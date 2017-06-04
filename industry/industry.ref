@@ -1,0 +1,72 @@
+Industry.ref
+
+Industry Attribute Reference Rile
+
+IDP - Industrial Development Potential
+	
+Industrial Land Use Development Potential Classification
+
+CLASSIFICATION    DESCRITPTION            FACTORS
+
+IDP-0 (d)         Developed          Little or no vacant land available
+
+IDP-0 (r)         Rezone             Developed primarily with incompatible
+                                     uses e.g. residential, recreational,
+                                     land fill or predminant site features,
+                                     that can not be reasonably mitigated by
+				     infrastructure, include;
+					. poor soils
+					. primary recharge area
+					. wetlands
+					. flood hazard area
+					. prime agricultural land
+					. unique natural area
+
+IDP-1		Low Potential	     Development may be appropriate
+				     based on good highway access or
+				     other unique feature, but limited
+				     to low intensity due to lack of
+				     infrastructure and presence of:
+					. poor soils
+					. ground water aquifer
+					. wetlands
+					. flood hazard area
+
+IDP-2		Moderate Potential   Site may support small scale
+				     development or expansion of existing
+				     industries due to size and/or
+				     accessibility, or the type of industry
+                                     may be restricted due to limited
+				     infrastructure and the presence of:
+					. poor soils
+					. ground water aquifer
+					. wetlands
+					. flood hazard area
+
+IDP-3		High Potential      Site has:
+				      . Sizable vacant parcels
+				      . Public Water
+				      . Public Sewer
+				      . Good Transportation Access
+				      . No Limiting Physiographic Features
+
+Locational Attributes - SITE, TOWN, DISTRICT, CITY
+		SITE-6 digit code for iste identification number in the
+			Statewide Planning Industrial Land Inventory
+			First Two digits - OSP Town Code
+			Next Four Digits - Sequntial Site Code by Town
+		TOWN-Two letter town or area abbreviation
+		DIST- Statewide Planning Sub-State Employment Growth Areas (District)
+		CITY-City or town name
+
+Utility Attributes - Elect,Watr,Sewr,Gas
+		     Logical Yes-No Field for Existance of Utilities at Site
+
+Transportation Attributes - Rail, S(tate)Highway, I(nterstate)Highway,Airport
+		     Existance or Railhead 
+			       or distance in 1 or 5 miles from
+				Airport or Highways 
+
+Area Attributes - Site Total Acres-TotAcre, Acres of Developed 		
+		     Industrial-Indacre, Acres Developed for Other than
+		     industrial-Othacre, Vacant Acres-Vacacre 

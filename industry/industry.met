@@ -1,0 +1,154 @@
+RIGIS-CAT-ID    =s44zin99
+ DATA-SET-IDENT  =rind99
+ DISTRIB-NOTES   =(c)rigis 1989 licensed rigis data
+ THEME-KEYWORDS  =rhode island land use economic zoning industrial
+ DESCRIPTION1    =land designated for industrial development by
+ DESCRIPTION2    =through zoning code or municipal comprehensive
+ DESCRIPTION3    =land use plans with dev potential classification
+ ACC-REV-DATE    =0500
+ DATA-STRUCTURE  =vector topological with feature attribute code
+ COORD-PRECIS    =arc-info single precision
+ INTENDED-USE    =state wide economic development planning
+ INTENDED-SCALE  =24000
+ TRANSFER-FORMAT =arc-info exprot
+ TRANSFER-SIZE   =0-5 megabytes
+ SPLOBJ-TYPE     =polygon
+ RESOLUTION      =one acre
+ SPLOBJ-COUNT    =324 polygons  454 arcs
+ AREA-EXT-BND    =LL 234030.578 94767.359 UR 423322.656 339920.688
+ AREA-EXCL-BND   =none
+ PROJECTION      =transverse mercator
+ COORDSYS-UNIT   =RISPC-feet
+ HORIZ-DATUM     =nad83
+ VERT-DATUM      =na
+ REL-DB-ID       =rind96-pat
+ REL-DB-ORG      =ri dept of administration statewide planning
+ FIELD-NAME1     =area
+ FIELD-CHAR1     =12 n
+ FIELD-DESC1     =area in square meters
+ FIELD-DOM1      =0-max
+ FIELD-ASSC1     =rind96-pat
+ FIELD-NAME2     =gisacre
+ FIELD-CHAR2     =12 n
+ FIELD-DESC2     =area in acres
+ FIELD-DOM2      =0-max
+ FIELD-ASSC2     =area by 640
+ FIELD-NAME3     =idp
+ FIELD-CHAR3     =11 n
+ FIELD-DESC3     =idustril developement potential classification
+ FIELD-DOM3      =0 1 2 3 9
+ FIELD-ASSC3     =rind96-ref
+ FIELD-NAME4     =site
+ FIELD-CHAR4     =11 n
+ FIELD-DESC4     =site identification number by ri town
+ FIELD-DOM4      =010010 -40090 inclusive
+ FIELD-ASSC4     =rind96-ref
+FIELD-NAME5     =town
+ FIELD-CHAR5     =2 c
+ FIELD-DESC5     =ri town name abbreviation
+ FIELD-DOM5      =ba-wy
+ FIELD-ASSC5     =ritown-ref
+ FIELD-NAME6     =five included facility infrastructure attributes
+ FIELD-CHAR6     =3 c
+ FIELD-DESC6     =electric water sewer gas rail available
+ FIELD-DOM6      =yes no
+ FIELD-ASSC6     =rind96-pat
+ SOURCE-CRTR     =ridoa statewide planning
+ SOURCE-ORIG1    =rigis database roads lakes streams
+ SOURCE-ORIG2    =rigis database s44zin96
+ BIBLIOG-REF     =ri indust land use plan 2000 statewide planning
+ SOURCE-SCAL     =24000
+ SOURCE-DATE     =1199
+ DATA-DATE       =1199
+ AUTO-EQPT       =pc arc-info pc caliper-maptitude
+ AUTO-PROC1      =industrial zoned polygons were heads up and tablet
+ AUTO-PROC2      =digitized from ridot paper county maps after
+ AUTO-PROC3      =review by each town in which sites were located
+ PROC-TOL        =not to rigis standards fuzzy 1.039 rms-002
+ PROC-DATE       =0197-0797
+ POS-ACCU        =plus or minus 100 feet
+ POS-ACCUCK      =visual inspection of output plots
+ ATTR-ACCU       =rigis standards 99 percent
+ ATTR-ACCUCK     =visual inspection of site attribute files
+ DATA-INTEG      =topologically complete arc-info polygon coverage
+ METADATA-LIST   =0500-jds
+ CONTACT-TITLE   =rigis coordinator statewide planning program
+ CONTACT-ORG     =ri dept of administration-olis-statewide planning
+ CONTACT-ADDR    =one capitol hill
+ CONTACT-CTYST   =providence ri o2908-5872
+ CONTACT-PHONE   =401-222-6483
+ CONTACT-EMAIL   =stach@rigis.doa.state.ri.us
+
+Industry.ref
+
+Industry Attribute Reference Rile
+
+IDP - Industrial Development Potential
+	
+Industrial Land Use Development Potential Classification
+
+CLASSIFICATION    DESCRITPTION            FACTORS
+
+IDP-0 (d)         Developed          Little or no vacant land available
+
+IDP-0 (r)         Rezone             Developed primarily with incompatible
+                                     uses e.g. residential, recreational,
+                                     land fill or predminant site features,
+                                     that can not be reasonably mitigated by
+				     infrastructure, include;
+					. poor soils
+					. primary recharge area
+					. wetlands
+					. flood hazard area
+					. prime agricultural land
+					. unique natural area
+
+IDP-1		Low Potential	     Development may be appropriate
+				     based on good highway access or
+				     other unique feature, but limited
+				     to low intensity due to lack of
+				     infrastructure and presence of:
+					. poor soils
+					. ground water aquifer
+					. wetlands
+					. flood hazard area
+
+IDP-2		Moderate Potential   Site may support small scale
+				     development or expansion of existing
+				     industries due to size and/or
+				     accessibility, or the type of industry
+                                     may be restricted due to limited
+				     infrastructure and the presence of:
+					. poor soils
+					. ground water aquifer
+					. wetlands
+					. flood hazard area
+
+IDP-3		High Potential      Site has:
+				      . Sizable vacant parcels
+				      . Public Water
+				      . Public Sewer
+				      . Good Transportation Access
+				      . No Limiting Physiographic Features
+
+Locational Attributes - SITE, TOWN, DISTRICT, CITY
+		SITE-6 digit code for iste identification number in the
+			Statewide Planning Industrial Land Inventory
+			First Two digits - OSP Town Code
+			Next Four Digits - Sequntial Site Code by Town
+		TOWN-Two letter town or area abbreviation
+		DIST-Statewide Planning Sub-state Employment Growth Area (District)
+		CITY-City or town name
+
+Utility Attributes - Elect,Watr,Sewr,Gas
+		     Logical Yes-No Field for Existance of Utilities at Site
+
+Transportation Attributes - Rail, S(tate)Highway, I(nterstate)Highway,Airport
+		     Existance of Railhead 
+			       or distance in 1 or 5 miles from
+				Airport or Highways 
+
+Area Attributes - Site Total Acres-TotAcre, Acres of Developed 		
+		     Industrial-Indacre, Acres Developed for Other than
+		     industrial-Othacre, Vacant Acres-Vacacre 
+

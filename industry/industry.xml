@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<idinfo Sync="TRUE">
+<citation Sync="TRUE">
+<citeinfo Sync="TRUE">
+<origin Sync="TRUE">RIDOA statewide planning</origin>
+<origin>RIGIS</origin>
+<pubdate>20000501</pubdate>
+<title>Industrial Areas; s44zin99</title>
+<geoform Sync="TRUE">vector digital data</geoform>
+<pubinfo Sync="TRUE">
+<pubplace>Providence, Rhode Island</pubplace>
+<publish>RIGIS</publish>
+</pubinfo>
+<othercit>Suggested bibliographic reference: RIGIS, 2000. Industrial Areas; s44zin99. Rhode Island Geographic Information System (RIGIS) Data Distribution System, URL: http://www.rigis.org, Environmental Data Center, University of Rhode Island, Kingston, Rhode Island (last date accessed: 7 October 2014).</othercit>
+<onlink>http://www.rigis.org/data/planningCadastre.html</onlink>
+<lworkcit>
+<citeinfo Sync="TRUE">
+<origin>RIGIS</origin>
+<pubdate>2000</pubdate>
+<title>RIGIS Database</title>
+<geoform>vector digital data</geoform>
+<onlink>http://www.rigis.org</onlink>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Land designated for industrial development by through zoning code or municipal comprehensive land use plans with development potential classification</abstract>
+<purpose>State wide economic development planning</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2000</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None planned</update>
+</status>
+<spdom>
+<bounding>
+<westbc Sync="TRUE">-71.846588</westbc>
+<eastbc Sync="TRUE">-71.150046</eastbc>
+<northbc Sync="TRUE">42.016101</northbc>
+<southbc Sync="TRUE">41.342806</southbc>
+</bounding>
+</spdom>
+<keywords Sync="TRUE">
+<theme Sync="TRUE">
+<themekt Sync="TRUE">ISO 19115 Topic Category</themekt>
+</theme>
+<theme>
+<themekt Sync="TRUE">None</themekt>
+<themekey Sync="TRUE">planningCadastre</themekey>
+<themekey Sync="TRUE">015</themekey>
+<themekey Sync="TRUE">Economy</themekey>
+<themekey Sync="TRUE">005</themekey>
+<themekey Sync="TRUE">Land use</themekey>
+<themekey Sync="TRUE">Economic Zoning</themekey>
+<themekey Sync="TRUE">Industrial</themekey>
+</theme>
+<place Sync="TRUE">
+<placekt Sync="TRUE">GNIS</placekt>
+<placekey Sync="TRUE">United States</placekey>
+<placekey Sync="TRUE">Rhode Island</placekey>
+<placekey Sync="TRUE">northeast</placekey>
+<placekey Sync="TRUE">New England</placekey>
+</place>
+</keywords>
+<accconst>None.</accconst>
+<useconst>
+This dataset is provided 'as is.’  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.
+Please acknowledge both RIGIS and the primary producer(s) of this dataset in any derived products.  Versions of the RIGIS logo suitable for both printed and web-based products are available at http://www.rigis.org/logos.
+</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Rhode Island Division of Planning</cntorg>
+<cntper>Christina Delage Baza</cntper>
+</cntorgp>
+<cntpos>GIS Specialist</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>One Capitol Hill</address>
+<city>Providence</city>
+<state>RI</state>
+<postal>02908-5872</postal>
+</cntaddr>
+<cntvoice>401-222-6481</cntvoice>
+<cntemail>christina.delagebaza@doa.ri.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>http://www.rigis.org/images/metadata/planningCadastre/industrial_zones.gif</browsen>
+<browset>GIF</browset>
+</browse>
+<datacred>RIDOA; RIGIS</datacred>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>rigis standards 99 percent; visual inspection of site attribute files</attraccr>
+</attracc>
+<logic Sync="TRUE">visual inspection of output plots, visual inspection of site attribute files</logic>
+<complete>not to rigis standards fuzzy 1.039 rms-002; topologically complete arc-info polygon coverage</complete>
+<posacc>
+<horizpa Sync="TRUE">
+<horizpar>plus or minus 100 feet</horizpar>
+</horizpa>
+</posacc>
+<lineage Sync="TRUE">
+<srcinfo Sync="TRUE">
+<srccite>
+<citeinfo Sync="TRUE">
+<origin Name="label">ridoa statewide planning</origin>
+<pubdate Name="label">2000</pubdate>
+<title>rigis database roads lakes streams, rigis database s44zin96</title>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>Vector digital data</typesrc>
+<srctime>
+<timeinfo>
+<sngdate>
+<caldate Sync="TRUE">199911</caldate>
+</sngdate>
+</timeinfo>
+<srccurr>publication date</srccurr>
+</srctime>
+<srccitea Name="arc">RIDOA</srccitea>
+<srccontr>Provided Data</srccontr>
+</srcinfo>
+<procstep>
+<procdesc Sync="TRUE">Industrial zoned polygons were heads up and tablet digitized from ridot paper county maps after review by each town in which sites were located.</procdesc>
+<procdate>19991101</procdate>
+</procstep>
+<procstep>
+<procdesc>Updated Point of Contact information for this dataset from "RIGIS Coordinator" to "Christina Delage Baza."</procdesc>
+<procdate>20150529</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>University of Rhode Island Environmental Data Center</cntorg>
+<cntper>Erica Tefft</cntper>
+</cntorgp>
+<cntpos>Research Associate</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>Coastal Institute</address>
+<address>1 Greenhouse Road</address>
+<city>Kingston</city>
+<state>RI</state>
+<postal>02881</postal>
+</cntaddr>
+<cntvoice>401-874-5054</cntvoice>
+<cntemail>erica@edc.uri.edu</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo Name="Historic_Districts_s44chd99">
+<direct Sync="TRUE">Vector</direct>
+<ptvctinf>
+<sdtsterm Sync="TRUE" Name="Industrial_Areas_s44zin99">
+<sdtstype Name="label" Sync="TRUE">G-polygon</sdtstype>
+<ptvctcnt Name="label" Sync="TRUE">338</ptvctcnt>
+</sdtsterm>
+<sdtsterm Name="tic">
+<sdtstype Name="polygon">Label point</sdtstype>
+<ptvctcnt Name="polygon">338</ptvctcnt>
+</sdtsterm>
+<sdtsterm Sync="TRUE">
+<sdtstype Name="tic">GT-polygon composed of chains</sdtstype>
+<ptvctcnt Name="tic">338</ptvctcnt>
+</sdtsterm>
+<sdtsterm Name="tic">
+<sdtstype Sync="TRUE">Point</sdtstype>
+<ptvctcnt Sync="TRUE">4</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref Sync="TRUE">
+<horizsys Sync="TRUE">
+<planar Sync="TRUE">
+<gridsys>
+<gridsysn>State Plane Coordinate System</gridsysn>
+<spcs>
+<spcszone Sync="TRUE">3800</spcszone>
+<transmer>
+<sfctrmer Sync="TRUE">0.999994</sfctrmer>
+<longcm Sync="TRUE">-71.500000</longcm>
+<latprjo Sync="TRUE">41.083333</latprjo>
+<feast Sync="TRUE">328083.333333</feast>
+<fnorth Sync="TRUE">0.000000</fnorth>
+</transmer>
+</spcs>
+</gridsys>
+<planci Sync="TRUE">
+<plance Name="arc" Sync="TRUE">coordinate pair</plance>
+<coordrep Name="arc">
+<absres Sync="TRUE">0.000512</absres>
+<ordres Name="label" Sync="TRUE">0.000512</ordres>
+</coordrep>
+<plandu Name="label" Sync="TRUE">survey feet</plandu>
+</planci>
+</planar>
+<geodetic Sync="TRUE">
+<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+<semiaxis Name="polygon" Sync="TRUE">6378137.000000</semiaxis>
+<denflat Sync="TRUE">298.257222</denflat>
+</geodetic>
+</horizsys>
+<vertdef Sync="TRUE">
+<altsys Name="s44chc92.pat">
+<altres Sync="TRUE">0.000010</altres>
+<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<eainfo Sync="TRUE">
+<detailed Name="Industrial_Areas_s44zin99">
+<enttyp Sync="TRUE">
+<enttypl Sync="TRUE">Industrial_Areas_s44zin99</enttypl>
+</enttyp>
+<attr Name="Census_1990_s44dbg91">
+<attrlabl Name="polygon">Shape</attrlabl>
+<attrdef Sync="TRUE">Feature geometry.</attrdef>
+<attrdefs Sync="TRUE">ESRI</attrdefs>
+<attrdomv Sync="TRUE">
+<udom Name="arc">Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr Sync="TRUE">
+<attrlabl Sync="TRUE">AIRPT</attrlabl>
+</attr>
+<attr Sync="TRUE">
+<attrlabl Sync="TRUE">OBJECTID</attrlabl>
+<attrdef Sync="TRUE">Internal feature number.</attrdef>
+<attrdefs Sync="TRUE">ESRI</attrdefs>
+<attrdomv Sync="TRUE">
+<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr Sync="TRUE">
+<attrlabl Sync="TRUE">AREA</attrlabl>
+<attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+<attrdefs Sync="TRUE">ESRI</attrdefs>
+<attrdomv Sync="TRUE">
+<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr Name="label">
+<attrlabl Sync="TRUE">PERIMETER</attrlabl>
+<attrdef Sync="TRUE">Perimeter of feature in internal units.</attrdef>
+<attrdefs Sync="TRUE">ESRI</attrdefs>
+<attrdomv Sync="TRUE">
+<udom Name="label">Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr Name="tic">
+<attrlabl Name="tic">IDP</attrlabl>
+</attr>
+<attr Sync="TRUE">
+<attrlabl Name="arc">SITE</attrlabl>
+</attr>
+<attr Sync="TRUE">
+<attrlabl Name="polygon">TOWN</attrlabl>
+</attr>
+<attr Sync="TRUE">
+<attrlabl Sync="TRUE">ELEC</attrlabl>
+</attr>
+<attr Sync="TRUE">
+<attrlabl Sync="TRUE">WATR</attrlabl>
+</attr>
+<attr Sync="TRUE">
+<attrlabl Name="polygon">SEWR</attrlabl>
+</attr>
+<attr Sync="TRUE">
+<attrlabl Name="shlcls_05.pat">GAS</attrlabl>
+</attr>
+<attr Sync="TRUE">
+<attrlabl Name="polygon">RAIL</attrlabl>
+</attr>
+<attr Sync="TRUE">
+<attrlabl Sync="TRUE">DIST</attrlabl>
+</attr>
+<attr Sync="TRUE">
+<attrlabl Sync="TRUE">CITY</attrlabl>
+</attr>
+<attr Name="label">
+<attrlabl Sync="TRUE">TOTACRE</attrlabl>
+</attr>
+<attr Name="tic">
+<attrlabl Name="tic">INDACRE</attrlabl>
+</attr>
+<attr Sync="TRUE">
+<attrlabl Sync="TRUE">OTHACRE</attrlabl>
+</attr>
+<attr Name="annotation">
+<attrlabl Sync="TRUE">VACACRE</attrlabl>
+</attr>
+<attr Sync="TRUE">
+<attrlabl Name="polygon">IHWY</attrlabl>
+</attr>
+<attr Sync="TRUE">
+<attrlabl Name="polygon">SHWY</attrlabl>
+</attr>
+<attr Sync="TRUE">
+<attrlabl Sync="TRUE">S44ZIN99_</attrlabl>
+</attr>
+<attr Sync="TRUE">
+<attrlabl Sync="TRUE">S44ZIN99_ID</attrlabl>
+</attr>
+<attr Name="label">
+<attrlabl Sync="TRUE">Shape_Length</attrlabl>
+<attrdef Sync="TRUE">Length of feature in internal units.</attrdef>
+<attrdefs Sync="TRUE">ESRI</attrdefs>
+<attrdomv Sync="TRUE">
+<udom Name="nblulc500.aat">Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr Name="tic">
+<attrlabl Sync="TRUE">Shape_Area</attrlabl>
+<attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+<attrdefs Name="polygon">ESRI</attrdefs>
+<attrdomv Name="label">
+<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+</detailed>
+<overview Sync="TRUE">
+<eaover Name="tic">
+Industry.ref
+Industry Attribute Reference Rile
+IDP - Industrial Development Potential
+Industrial Land Use Development Potential Classification
+CLASSIFICATION    DESCRITPTION            FACTORS
+IDP-0 (d)         Developed          Little or no vacant land available
+IDP-0 (r)         Rezone             Developed primarily with incompatible
+uses e.g. residential, recreational,
+land fill or predminant site features,
+that can not be reasonably mitigated by
+infrastructure, include;
+. poor soils
+. primary recharge area
+. wetlands
+. flood hazard area
+. prime agricultural land
+. unique natural area
+IDP-1		Low Potential	     Development may be appropriate
+based on good highway access or
+other unique feature, but limited
+to low intensity due to lack of
+infrastructure and presence of:
+. poor soils
+. ground water aquifer
+. wetlands
+. flood hazard area
+IDP-2		Moderate Potential   Site may support small scale
+development or expansion of existing
+industries due to size and/or
+accessibility, or the type of industry
+may be restricted due to limited
+infrastructure and the presence of:
+. poor soils
+. ground water aquifer
+. wetlands
+. flood hazard area
+IDP-3		High Potential      Site has:
+. Sizable vacant parcels
+. Public Water
+. Public Sewer
+. Good Transportation Access
+. No Limiting Physiographic Features
+Locational Attributes - SITE, TOWN, DISTRICT, CITY
+SITE-6 digit code for iste identification number in the
+Statewide Planning Industrial Land Inventory
+First Two digits - OSP Town Code
+Next Four Digits - Sequntial Site Code by Town
+TOWN-Two letter town or area abbreviation
+DIST-Statewide Planning Sub-state Employment Growth Area (District)
+CITY-City or town name
+Utility Attributes - Elect,Watr,Sewr,Gas
+Logical Yes-No Field for Existance of Utilities at Site
+Transportation Attributes - Rail, S(tate)Highway, I(nterstate)Highway,Airport
+Existance of Railhead 
+or distance in 1 or 5 miles from
+Airport or Highways 
+Area Attributes - Site Total Acres-TotAcre, Acres of Developed 		
+Industrial-Indacre, Acres Developed for Other than
+industrial-Othacre, Vacant Acres-Vacacre
+</eaover>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>University of Rhode Island Environmental Data Center</cntorg>
+<cntper>Erica Tefft</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>1 Greenhouse Road</address>
+<city>Kingston</city>
+<state>RI</state>
+<postal>02881</postal>
+</cntaddr>
+<cntvoice>401-874-5054</cntvoice>
+<cntemail>erica@edc.uri.edu</cntemail>
+<cntinst>email preferred</cntinst>
+</cntinfo>
+</distrib>
+<distliab>This dataset is provided 'as is.'  The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>Esri shapefile</formname>
+<filedec>ZIP</filedec>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://www.rigis.org</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>No fee for downloading directly from the RIGIS Data Distribution System located at http://www.rigis.org.</fees>
+</stdorder>
+</distinfo>
+<metainfo Sync="TRUE">
+<metd Name="nbaywet.pat" Sync="TRUE">20060621</metd>
+<metc Sync="TRUE">
+<cntinfo Sync="TRUE">
+<cntorgp Sync="TRUE">
+<cntorg Sync="TRUE">RI Department of Administration; Division of Information Technology</cntorg>
+<cntper Sync="TRUE">REQUIRED: The person responsible for the metadata information.</cntper>
+</cntorgp>
+<cntpos Sync="TRUE">RIGIS Coordinator</cntpos>
+<cntaddr Sync="TRUE">
+<addrtype Sync="TRUE">mailing address</addrtype>
+<address Sync="TRUE">1 Capitol Hill</address>
+<city Sync="TRUE">Providence</city>
+<state Sync="TRUE">Rhode Island</state>
+<postal>02908</postal>
+<country Sync="TRUE">USA</country>
+</cntaddr>
+<cntvoice Sync="TRUE">401-222-6483</cntvoice>
+<cntfax Sync="TRUE">401-222-6482</cntfax>
+<cntemail Sync="TRUE">rigis@admin.ri.gov</cntemail>
+<hours Sync="TRUE">8:00 - 3:30</hours>
+<cntinst Sync="TRUE">E-mail preferred</cntinst>
+</cntinfo>
+</metc>
+<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+<mettc Sync="TRUE">local time</mettc>
+</metainfo>
+</metadata>
